@@ -63,7 +63,7 @@ const search = ref("");
 let weatherData = ref<WeatherModel | null>(null);
 let latitude: number | null = null;
 let longitude: number | null = null;
-const apiKey = "a45ea032a8afe65bd40f29137c3741ff";
+const apiKey = "your-api-key";
 const httpClient = axios.create({
   baseURL: "https://api.openweathermap.org/data/2.5/weather",
   timeout: 1000,
